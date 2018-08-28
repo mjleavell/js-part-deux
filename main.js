@@ -88,3 +88,15 @@ const newQuote = quote.replace(/is/g, "ain't");   // regular expression = // glo
 console.log('newQuote: ', newQuote);
 // to learn more about regular expressions go to rubular.com
 
+// *************************OBJECTS**********************
+const fancyObject = {};
+
+fancyObject.color = 'red';
+fancyObject['number'] = 10   // creates a number key but this is not an array
+console.log('fancyObject', fancyObject);
+// below is what it looks like in console
+// const fancyObject = {
+//     color: red, 
+//     number: 10
+// };
+
